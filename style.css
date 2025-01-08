@@ -1241,7 +1241,8 @@ footer {
     margin-top: 20px;
     position: absolute;
     top: 345px;
-    left: 220px;
+/*     left: 220px; */
+    left: 200px;
   }
   .para-social-media-links a {
     margin: 0 5px;
