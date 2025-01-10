@@ -1283,7 +1283,7 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
-    background-color: chartreuse;
+/*     background-color: chartreuse; */
     position: absolute;
     top: 330px;
     left: 250px;
