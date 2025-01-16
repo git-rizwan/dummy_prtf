@@ -1529,3 +1529,16 @@ footer {
     margin-right: 2rem;
   }
 }
+
+@media (max-width: 1534px) {
+  .about-description {
+    position: relative;
+  }
+
+  .para-social-media-links {
+    position: absolute;
+    top: 380px;
+    left: 100px;
+    gap: 20px;
+  }
+}
