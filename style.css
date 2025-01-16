@@ -1241,7 +1241,7 @@ footer {
     margin-right: 9rem;
   }
 
-  .section-2 {
+/*   .section-2 {
     padding: 30px 0;
   }
   .underline-section-2 {
@@ -1287,7 +1287,7 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
-    /* background-color: chartreuse; */
+    
     position: absolute;
     top: 330px;
     left: 250px;
@@ -1310,8 +1310,10 @@ footer {
   .para-social-media-links a:nth-child(4),
   .para-social-media-links a:nth-child(5) {
     order: 2;
-  }
+  } */
 
+  .section-2 { padding: 30px 0; } .underline-section-2 { width: 32.7%; margin-left: 33.5%; margin-bottom: 10%; } .about-di-block { flex-direction: column; align-items: center; margin: 0 5%; gap: 10px; position: relative; } .about-description { padding-top: 20px; height: auto; position: relative; text-align: justify; } .about-image img { height: auto; padding-left: 5px; width: 50%; } .about-name { font-size: 2rem; } .role-div { font-size: 1rem; margin-top: 5px; } .about-paragraph { margin-top: 15px; } .underline-section-4 { margin-left: 11rem; } .para-social-media-links { display: flex; flex-wrap: wrap; justify-content: center; margin-top: -40px; margin-left: 130px; position: absolute; top: 200px; left: 300px; } .para-social-media-links a { flex: 1 0 30%; margin-bottom: 10px; margin-right: -1rem; } .para-social-media-links a:nth-child(1), .para-social-media-links a:nth-child(2), .para-social-media-links a:nth-child(3) { order: 1; } .para-social-media-links a:nth-child(4) { margin-left: 20px; } .para-social-media-links a:nth-child(4), .para-social-media-links a:nth-child(5) { order: 2; }
+  
   .projects {
     display: flex;
     flex-direction: column;
