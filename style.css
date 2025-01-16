@@ -242,7 +242,7 @@ html {
 
 /* section-2 */
 
-.section-2 {
+/* .section-2 {
   padding: 50px 0px;
 }
 
@@ -267,7 +267,7 @@ html {
 
 .about-description {
   padding-top: 40px;
-  /* background-color: aqua; */
+  
   height: 450px;
 }
 
@@ -302,7 +302,10 @@ html {
   color: var(--secondary-color);
   margin: 0 5px;
   padding: 3px;
-}
+} */
+
+.section-2 { padding: 50px 0; } .underline-section-2 { height: 0.3rem; width: 10rem; background-color: var(--secondary-color); margin-left: 44%; margin-bottom: 5%; } .about-di-block { display: flex; margin: 0 15%; gap: 20px; } .about-image img { height: 450px; width: 450px; } .about-description { padding-top: 40px; height: 450px; } .about-name { font-size: 3rem; font-weight: 500; } .role-div { font-size: 1.3rem; font-weight: 100; margin-top: 10px; } .about-paragraph { margin-top: 20px; letter-spacing: 1; } .para-social-media-links { display: flex; flex-wrap: wrap; margin-top: 20px; gap: 20px; justify-content: center; position: absolute; top: 1175px; left: 300px; } .para-social-media-links a { color: var(--secondary-color); margin: 0 5px; padding: 3px; }
+
 /* end of section-2 */
 
 /* section-3 */
