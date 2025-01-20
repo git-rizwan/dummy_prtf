@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rizwan Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="icon" href="New R font.png" id="page-logo" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- section-1 -->
+      <section class="section-1">
+        <!-- navbar -->
+        <nav class="navbar">
+          <!-- main heading -->
+          <div class="nav-heading">Rizwan</div>
+
+          <!-- hamburger icon --> 
+           <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+
+          <!-- link items -->
+          <div class="nav-link-items">
+            <div class="nav-item"><a href="#">HOME</a></div>
+            <div class="nav-item"><a href="#ABOUT">ABOUT</a></div>
+            <div class="nav-item"><a href="#SKILL">SKILLS</a></div>
+            <div class="nav-item"><a href="#PROJECT">PROJECTS</a></div>
+            <div class="nav-item"><a href="#EXPERIENCE">EXPERIENCE</a></div>
+            <div class="nav-item"><a href="#CERTIFICATES">CERTIFICATES</a></div>
+            <div class="nav-item"><a href="#CONTACT">CONTACT</a></div>
+          </div>
+        </nav>
+
+        <!-- JavaScript for toggling menu --> 
+         <script> 
+             function toggleMenu() { 
+              document.querySelector('.nav-link-items').classList.toggle('active'); 
+              } 
+         </script>
+
+        <div class="homescreen">
+          <div class="image-block">
+            <img src="My-Image.jpeg" class="IMAGE" alt="image" />
+          </div>
+          <div class="overlay">
+            <div class="intro-block">
+              <!-- <img src="intro_block.jpg" class="intro-img" alt="INTRO IMAGE" /> -->
+              <h1>Let's Begin</h1>
+              <!-- slide-show -->
+              <div class="slider">
+                <div class="running-content">
+                  <div class="slide">Web Developer</div>
+                  <div class="slide">Web Designer</div>
+                  <div class="slide">Certified Cloud Practitioner</div>
+                </div>
+              </div>
+             <a href="#ABOUT"><button class="section-1-btn">Learn More</button></a> 
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of section-1 -->
+
+      <!-- section-2 -->
+      <section class="section-2" id="ABOUT">
+        <p class="section-2-heading center">About Me</p>
+        <div class="underline-section-2"></div>
+        <div class="about-di-block">
+          <!-- about description -->
+           
+          <div class="about-description">
+            <h3 class="about-name">Hello, I am Rizwan</h3>
+            <h4 class="role-div">
+              Web Developer, Web Designer and Certified Cloud Practitioner
+            </h4>
+            <p class="about-paragraph">
+              I consider myself a responsible person. My vision is to move
+              forward with things that are relevant to me. Eagerly, I want to
+              learn new things that alter the world day to day. My goal is to
+              become a professional in my field of work and also to contribute
+              work of excellence for people who want to lift themselves up in
+              their lives.
+              <div class="para-social-media-links">
+                <a href="https://www.facebook.com/share/fT3iYNCfGm64aWGg/" target="_blank">
+                  <i 
+                    class="fa fa-facebook-official"
+                    style="font-size: 30px"
+                  ></i
+                ></a>
+
+                <a href="https://www.linkedin.com/in/rizwan-a-1812r75/" target="_blank">
+                  <i class="fa fa-linkedin" style="font-size: 30px"></i>
+                </a>
+
+                <a href="https://x.com/a_rizwan_webdev" target="_blank">
+                  <i style="font-size: 30px; text-decoration: none;">𝕏</i>
+                </a> 
+                  
+                <a href="https://github.com/git-rizwan/" target="_blank">
+                  <i class="fa fa-github" style="font-size: 30px;"></i>
+                </a>
+                
+                <a href="https://rydetravel.com/author/rizwan_ryde/" target="_blank">
+                  <i class="fa fa-wordpress" style="font-size: 30px"></i>
+                </a>
+              </div>
+            </p>
+          </div>
+        
+          <!-- about-image -->
+          <div class="about-image">
+            <img src="about-my-image_2.jpg" alt="ABOUT-IMAGE" />
+          </div>
+        </div>
+      </section>
+      <!-- end of section-2 -->
+
+      <!-- section-3 -->
+      <section class="section-3" id="SKILL">
+        <p class="section-3-heading center">Skills</p>
+        <div class="underline-section-3"></div>
+        <!-- skill progress -->
+       
+        <!-- html -->
+        <div class="skill-container">
+          <div class="sub-skill-container">
+          <div class="skill-box">
+            <span class="title">HTML</span>
+
+            <div class="skill-bar">
+              <span class="skill-per html">
+                <span class="tooltip">95%</span>
+              </span>
+            </div>
+          </div>
+          <!-- css -->
+          <div class="skill-box">
+            <span class="title">CSS</span>
+
+            <div class="skill-bar">
+              <span class="skill-per css">
+                <span class="tooltip">85%</span>
+              </span>
+            </div>
+          </div>
+          <!-- JS -->
+          <div class="skill-box">
+            <span class="title">JavaScript</span>
+
+            <div class="skill-bar">
+              <span class="skill-per JS">
+                <span class="tooltip">60%</span>
+              </span>
+            </div>
+          </div>
+          <!-- php -->
+          <div class="skill-box">
+            <span class="title">PHP</span>
+
+            <div class="skill-bar">
+              <span class="skill-per php">
+                <span class="tooltip">70%</span>
+              </span>
+            </div>
+          </div>
+          <!-- SQL -->
+          <div class="skill-box">
+            <span class="title">MySQL</span>
+
+            <div class="skill-bar">
+              <span class="skill-per SQL">
+                <span class="tooltip">80%</span>
+              </span>
+            </div>
+          </div>
+          <!-- wordpress -->
+          <div class="skill-box">
+            <span class="title">Word Press</span>
+
+            <div class="skill-bar">
+              <span class="skill-per wordpress">
+                <span class="tooltip">50%</span>
+              </span>
+            </div>
+          </div>
+          <!-- Git -->
+          <div class="skill-box">
+            <span class="title">Git</span>
+
+            <div class="skill-bar">
+              <span class="skill-per Git">
+                <span class="tooltip">90%</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        </div>
+     </section>
+      <!-- end of section-3 -->
+
+      <!-- section-4 -->
+      <section class="section-4" id="PROJECT">
+        <p class="section-4-heading center">Project</p>
+        <div class="underline-section-4"></div>
+        <div class="portfolio">
+          <!-- <h1>My Projects</h1> -->
+          <div class="projects">
+            <div class="project">
+              <img src="Temperature_Convertor.jpg
+              " alt="Project 1"  >
+              <h2>Temperature Converter</h2>
+              <p><strong>Description: </strong>This web app allows users to convert temperatures between Fahrenheit and Celsius. It features a switchable mode for both conversions. Users can input a temperature, and the app displays the converted value instantly.</p>
+              <p><strong id="strong-1">Technologies Used:</strong> HTML, CSS, JavaScript</p>
+              <a href="https://git-rizwan.github.io/Temperature-Converter/" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+              <img src="Digital_clock.jpg" alt="Project 2" 
+              >
+              <h2>Digital Alarm Clock</h2>
+              <p><strong>Description: </strong> A web app simulating a digital alarm clock. Users can set and reset alarms, and the app plays a sound when the alarm time is reached. It also displays the current time.</p>
+              <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+              
+              <a id="link-s" href="https://git-rizwan.github.io/Alarm-Clock/" target="_blank">View Project</a>
+            </div>
+            <div class="project">  
+              <img src="project_manager.jpg
+              " alt="Project 3"  >
+              <h2>Daily Task Manager</h2>
+              <p><strong>Description: </strong>A web app for managing daily tasks with purpose, date, time, and notes. Tasks are categorized into today's, past, and future tasks. Users can add, edit, view, and delete tasks.</p>
+              <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+              <a id="link-s" href="https://git-rizwan.github.io/daily-task-note-manager/" target="_blank">View Project</a>
+            </div>
+            <div class="project">  
+              <img src="the_road.jpg
+              " alt="Project 4"  >
+              <h2>The Road</h2>
+              <p><strong>Description: </strong> The Road is a dynamic and engaging travel-themed website designed to inspire and inform users about various travel destinations. It features a clean, responsive design and interactive elements to enhance the user experience.</p>
+              <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+              <a id="link-p" href="https://rydefoundation.in/stprojects/RIZWAN/refproject/road/" target="_blank">View Project</a>
+            </div>
+            <div class="project">  
+              <img src="architect_img.jpg
+              " alt="Project 5"  >
+              <h2>Architect Website</h2>
+              <p><strong>Description: </strong> The Architect Website is a sophisticated and visually appealing web application designed for an architecture firm. It showcases various aspects of the firm's services and team, providing users with a seamless and engaging browsing experience.</p>
+              <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+              <a id="link-p" href="https://rydefoundation.in/stprojects/RIZWAN/refproject/architect/" target="_blank">View Project</a>
+            </div>
+            <div class="project">  
+              <img src="music_project.jpg
+              " alt="Project 6"  >
+              <h2>Song Data Hub</h2>
+              <p><strong>Description: </strong> 
+                Created a dynamic web app to display song data from CSV files, using JavaScript for HTML cloning and AJAX for seamless updates. Integrated YouTube videos for enhanced engagement.</p>
+              <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript, PHP, CSV</p>
+              <a id="link-p" href="https://rydefoundation.in/stprojects/RIZWAN/portfolio/portfolio_projects/Song_data_hub" target="_blank">View Project</a>
+            </div>
+            <!-- Add more projects as needed -->
+          </div>
+        </div>
+        
+      </section>
+      <!-- end of section-4 -->
+
+      <!-- section-5 -->
+      <section class="section-5" id="EXPERIENCE">
+        <p class="section-5-heading center">EXPERIENCE</p>
+        <div class="underline-section-5"></div>
+        <!-- zig-za-experience -->
+        <div class="zig-zag">
+          <div class="exp-1">
+            <div class="EXP-1-IMG">
+              <img src="RydeLogo (1).png" alt="exp-1-img" />
+            </div>
+            <div class="EXP-1-content">
+              <h3 class="exp-1-heading">
+                Rural Youth Development Education Foundation
+              </h3>
+              <p class="exp-1-duration">
+                <span>Duration:</span> July 2024 - Until
+              </p>
+              <p class="exp-1-paragraph">
+                Currently I am pursuing at the domain of Web development
+                <span>RYDE</span>(Rural Youth Development Education)Foundation
+                were I am learning and implementing things what I learned. Doing
+                Projects with responsively and interactive to user
+              </p>
+            </div>
+          </div>
+
+          <div class="exp-2">
+            <div class="EXP-2-content">
+              <h3 class="exp-2-heading">AWS Certified Cloud Practitioner</h3>
+              <p class="exp-2-duration">
+                <span>Duration:</span> March 2024 - July 2024
+              </p>
+              <p class="exp-2-paragraph">
+                Successfully completed the AWS Certified Cloud Practitioner
+                course while pursuing final year studies. Gained hands-on
+                knowledge and practical skills in AWS cloud technologies. Part
+                of the AWS Restart program.
+              </p>
+            </div>
+            <div class="EXP-2-IMG">
+              <img src="aws_restart.png" alt="exp-2-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of section-5 -->
+
+      <!-- blogs -->
+      <section class="blogs center">
+        <p class="BLOG center">BLOGS</p>
+        <div class="underline-blog"></div>
+         <!-- <div class="blog">
+          
+          <p></p>
+         </div> -->
+         <div class="blog">
+          <img src="TECH_IMG.jpg" alt="tech-img" >
+
+          <h6>Top Web Development Trends</h6>
+          <p>Explore the top web development trends of 2024, including AI integration, progressive web apps (PWAs), voice search optimization, and enhanced cybersecurity measures. Stay ahead in the industry by adopting these cutting-edge practices!</p>
+          
+          <a id="link-s" href="https://rydetravel.com/2024/12/02/top-web-development-trends/" target="_blank">Read More</a>
+        </div>
+      </section>
+      <!-- end of blogs -->
+
+      <!-- section-6 -->
+
+      <section class="section-6" id="CERTIFICATES">
+        <p class="section-6-heading center">Certificates</p>
+        <div class="underline-section-6"></div>
+
+        <div class="certificate-wrapper">
+          <div class="certificate-1">
+            <p>AWS Certified Cloud Practitioner</p>
+            <a href="amazon-cert.png" target="_blank">
+              <img
+                src="amazon-cert.png"
+                alt="AWS Certificate Image"
+                width="200"
+                class="certificate-img"
+              />
+            </a>
+          </div>
+          <div class="certificate-2">
+            <p>Agile Project Management</p>
+            <a href="hp-agile-cert.jpeg" target="_blank">
+              <img
+                src="hp-agile-cert.jpeg"
+                alt="Agile Certificate Image"
+                width="200"
+                class="certificate-img"
+              />
+            </a>
+          </div>
+          <div class="certificate-3">
+            <p>Python Complete Course</p>
+            <a href="Pyhton CERT Udemy.jpg" target="_blank">
+              <img
+                src="Pyhton CERT Udemy.jpg"
+                alt="Python Complete Course"
+                width="200"
+                class="certificate-img"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- end of section-6 -->
+
+      <!-- section-7 -->
+      <section class="section-7" id="CONTACT">
+        <div class="contact_us_2">
+          <div class="responsive-container-block big-container">
+            <div class="blueBG"></div>
+            <div class="responsive-container-block container">
+              <p class="section-7-heading center">Contact Me</p>
+              <div class="underline-section-7"></div>
+              <form action="https://formsubmit.co/3ed3e1f0ff5d485b9f771da00147f596" method="POST" class="form-box">
+                <!-- honeypot -->
+                 <input type="text" name="_honey" style="display: none;">
+
+                 <!-- disable captcha -->
+                  <input type="hidden" name="_captcha" value="false">
+
+                  <input type="hidden" name="_next" value="https://git-rizwan.github.io/Portfolio/success.html">
+
+                <div class="container-block form-wrapper">
+                  <p class="text-blk contactus-head">Get in Touch</p>
+
+                  <div class="responsive-container-block">
+                    <div
+                      class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-6"
+                      id="i10mt"
+                    >
+                      <p class="text-blk input-title"><b>FIRST NAME</b></p>
+                      <input
+                        class="input"
+                        id="ijowk"
+                        name="FirstName"
+                        placeholder="Please enter first name..."
+                      />
+                    </div>
+                    <div
+                      class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12"
+                    >
+                      <p class="text-blk input-title"><b>LAST NAME</b></p>
+                      <input
+                        class="input"
+                        id="indfi"
+                        name="Last&nbsp;Name"
+                        placeholder="Please enter last name..."
+                      />
+                    </div>
+                    <div
+                      class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12"
+                    >
+                      <p class="text-blk input-title"><b>EMAIL</b></p>
+                      <input
+                        class="input"
+                        id="ipmgh"
+                        name="Email"
+                        placeholder="Please enter email..."
+                      />
+                    </div>
+                    <div
+                      class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12"
+                    >
+                      <p class="text-blk input-title"><b>PHONE NUMBER</b></p>
+                      <input
+                        class="input"
+                        id="imgis"
+                        name="PhoneNumber"
+                        placeholder="Please enter phone number..."
+                      />
+                    </div>
+                    <div
+                      class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12"
+                      id="i634i"
+                    >
+                      <p class="text-blk input-title">
+                        <b>WHAT DO YOU HAVE IN MIND</b>
+                      </p>
+                      <textarea 
+                        class="textinput"
+                        id="i5vyy"
+                        placeholder="Please enter query..."
+                        name="WHAT&nbsp;DO&nbsp;YOU&nbsp;HAVE&nbsp;IN&nbsp;MIND"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <button class="submit-btn">Submit</button>
+                </div>
+                
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- end of section-7 -->
+
+      <!-- section-8 footer -->
+      <section class="section-8">
+        <footer class="footer-area">
+          <div class="container-footer">
+            <div class="row">
+              <div class="text-center">
+                <div class="copyright-text">
+                  <p class="text-white">&copy; 2024 | Developed By Rizwan A</p>
+                </div>
+                
+              </div>
+              <div class="footer-social-media-links">
+                <a href="https://www.facebook.com/share/fT3iYNCfGm64aWGg/" target="_blank">
+                  <i
+                    class="fa fa-facebook-official"
+                    style="font-size: 27px"
+                  ></i
+                ></a>
+
+                <a href="https://www.linkedin.com/in/rizwan-a-1812r75/" target="_blank">
+                  <i class="fa fa-linkedin" style="font-size: 27px"></i>
+                </a>
+
+                <a href="https://x.com/a_rizwan_webdev" target="_blank">
+                  <i style="font-size: 27px; text-decoration: none;">𝕏</i>
+                </a>
+
+                <a href="https://github.com/git-rizwan/" target="_blank">
+                  <i class="fa fa-github" style="font-size: 27px"></i>
+                </a>
+
+                <a href="https://rydetravel.com/author/rizwan_ryde/" target="_blank">
+                  <i class="fa fa-wordpress" style="font-size: 27px"></i>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+        </footer>
+      </section>
+      <!-- enf od section-8 footer -->
+    </div>
+
+    <!-- Javascript code -->
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
